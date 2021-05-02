@@ -23,6 +23,8 @@ public class ProductRepository {
         productList.add(new Product(generator.getAndIncrement(), "Beer", 65, 1, false));
         productList.add(new Product(generator.getAndIncrement(), "Lemonade", 70, 1, false));
         productList.add(new Product(generator.getAndIncrement(), "Tomato", 270, 1, false));
+        productList.add(new Product(generator.getAndIncrement(), "Carrot", 15, 1, false));
+        productList.add(new Product(generator.getAndIncrement(), "Potato", 45, 1, false));
     }
 
     public List<Product> findAll() {
